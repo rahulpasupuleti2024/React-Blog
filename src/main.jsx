@@ -9,11 +9,11 @@ import Home from './Pages/Home.jsx'
 import { AuthLayout, Login } from './components/index.js'
 
 
-import AddPost from "./pages/AddPost";
+import AddPost from './Pages/AddPost'
 import Signup from './pages/Signup'
 import EditPost from './Pages/EditPost'
 
-import Post from "./pages/Post";
+import Post from './Pages/Post'
 
 import AllPosts from "./pages/AllPosts";
 
@@ -56,7 +56,7 @@ const router = createBrowserRouter([
             element: (
                 <AuthLayout authentication>
                     {" "}
-                    <AddPost />
+                    <AddPost/>
                 </AuthLayout>
             ),
         },
